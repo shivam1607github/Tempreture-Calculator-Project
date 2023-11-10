@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <label for="celsius" class="c">Celsius:</label>
+        <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+        
+        <label for="fahrenheit" class="c">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" placeholder="Enter temperature in 
+        Fahrenheit">
+        
+        <button onclick="convertCtoF()">Convert to Fahrenheit</button>
+        <button onclick="convertFtoC()">Convert to Celsius</button>
+    </div>
+    <div class="icon">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAutJREFUSEuNlj2OE0EQhb+6iS1IOQGJHSFxAcL1JohDIOGRyCFEBMCGewJEgOyEE5AieW7SqLprZqr/ZnakXe+2a/p1vXr1qgV9BAjxV/zXFuYPW1w+fLy95t/28cu6IIQModq3XKg23V7IE2icRLfYfBpc7IADMKYfGRe2Gts1WEnA/osNzgROAb4X2w8C56lQRU2aJXtSxg5Es7y0KBLYh5S9q6X93SiNtBPspc0Z+GACPBq9mr1SXz4DyLlXgk7GeVHcMTRbzfoKMgFPa2VHDIQV4G5uTcnJRQiH0AYeER60X2zPqx5wTTJNGfqecwEuY47WzheCHCAo0LHf/DlMTXXVO9nCBYJRbcBJbPPaZm+6gjw1VvsuAQtXghyNlQjcoHSAKMYOo2UfV2GZ1V0ErMZKa3wKcc0btIGdbpteXfpqMgefcQWsLvYw5xFZUfUXdlIDNxmJbehmwk1gl6lauBDMPoUjIdroxqMszk9epUJjCqZGoSLSk8Qamzn4Gqtzae1HY8hNPK/3CbihjGLphrCz7K8BtH6JRuFAiG6motOzaMZa/5j5sk9ppSUp9SRxNhnBTFTVaX3cgHB2ZtKQbBN43lQ9+GaZjQT2G8XTcpwsfr9W7y2vVhqnaaSmf22bfkbTFK/M1Kq2U607VzIAm0Yx228L1VWj/ER47W4398CP9Xayb13bpBXhRJiHvgJ/AV45xfh9fyG8I8jNenAg9Jwric7DliU8mGlo5D2BZ8D7Tp0/Ar/VyYx4HRid0kzAlmp7IsUMVGRarzfAH+B5Af5P4GWAx7nXs6RcdOZcPammoLxN4DPwFnhh5/1LkK8QPiVFx9Xcpzs+sUb1ZAGzgVjmurHdMCPYnV0QNF5vnHPbeQNZ/LdHR132HdGTZedfrvSRBsPiaq2Ln0tzI+OsDkr7Xf9yl1Tcu+6UrdWssG+t6lKShsV0s1TRjVX8BnpmIO3Y7QnSsXuzgr7X5e+t4vRGZz+9ypQM7T/DlDM0GDfOzQAAAABJRU5ErkJggg=="/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
